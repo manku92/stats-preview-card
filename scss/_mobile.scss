@@ -1,0 +1,52 @@
+@media (max-width: 375px) {
+
+  body {
+    padding: 2rem;
+    line-height: 1.5;
+  }
+
+  img {
+
+    border-radius: 20px 20px 0 0;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+
+  .office-image {
+    div {
+
+      border-radius: 20px 20px 0 0;
+    }
+  }
+
+  .stats-content {
+    .title {
+      font-size: 1.3rem;
+      text-align: center;
+    }
+
+    .description {
+      text-align: center;
+      font-size: 0.7rem;
+    }
+
+    .stats-grid {
+      flex-direction: column;
+      align-items: center;
+      padding-top: 1rem;
+      text-align: center;
+
+      div {
+        margin-bottom: 10px;
+      }
+
+      .highlight {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
